@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  
+}
+body{
+  background-color: aliceblue;
+  background-image: url(https://t3.ftcdn.net/jpg/03/13/17/38/360_F_313173845_9k9KBRy8l6cGt3IVOKjSGgfCK73kS9QS.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.title-test{
+  text-shadow: none;
+}
+h1{
+  padding: 20px;
+}
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbar {
+  background: #D0B0C8;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items:start;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 0;
+  overflow: hidden;
+  max-height: 1200px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+
+}
+.navbar .logo{
+  color: #fff;
+  font-size: 50px;
+  display: flex;
+  top: 0;
+  font-weight: 600;
+
+}
+
+.navbar .navbar__container {
+  padding-left: 20px;
+  display: flex;
+  flex:1;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin:0 auto;
+  padding-bottom: 10px;
+
+}
+.navbar__item{
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  font-weight: 20;
+  padding-left: 20px;
+}
+.spotify__playlist{
+  position: absolute;
+  bottom: 0px;
+  left: 0px; 
+  margin: 20px;
+  
+}
+
